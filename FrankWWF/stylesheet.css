@@ -1,0 +1,563 @@
+body{
+
+    font-family: 'seils sans', sans-serif;
+    letter-spacing: 2px;
+    margin: 0;
+    overflow-x: hidden;   
+}
+
+/*navbar*/
+
+.navbar{
+
+  display: block;
+   background-image: url(images/topographicImage.jpg);
+     width: 100%;
+    height: 70px;
+    background-size:cover;
+}
+
+.button-container {
+
+    float: right;
+    height: 60px;
+    width: 550px;
+    margin-top: 5px;
+    text-align: left; 
+}
+
+  .icon-button1 {
+
+    background-color: rgb(245, 127, 43);
+    margin-top: 12px;
+    margin-left: 85px;
+    font-family: 'seils sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:rgb(254, 254, 254);
+    width: 140px;
+    height: 38px;
+    cursor: pointer;
+    justify-content: center;
+    border: rgb(245, 127, 43); 
+}
+
+  .icon-button1:hover {
+background-color: rgb(215, 82, 15);
+
+}
+  
+  .icon1-button ::before{
+display: inline-block;
+
+  }
+
+.icon-button2{
+  
+    margin-top: 12px;
+    font-family: 'seils sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:black;
+    width: 130px;
+    height: 40px;
+    background-color:white;
+    cursor: pointer;
+    justify-content: center;
+    border-width:3px; 
+  }
+
+  .icon-button3{
+    
+    font-family: 'seils sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:black;
+    width: 180px;
+    height: 40px;
+    background-color:white;
+    cursor: pointer;
+    justify-content: center;
+    border-width:3px;
+   
+  }
+
+  span {
+    padding: 6px;
+
+}
+
+/*Navbar ends here*/ 
+
+
+/*Header*/
+
+.header-link {
+    
+    background-color: rgb(254, 253, 253);
+    display: flex;
+    width:1400;
+    margin-left:200px;
+    margin-right: 130px;
+    padding: 8px 0px;
+   justify-content: space-between;
+     
+}
+
+.logo {
+  
+    display: flex;
+    margin-left: 50px;
+    height: 130px;
+   
+}
+
+li{
+   
+    list-style:none
+}
+
+
+.link {
+    font-size: 18px;
+    font-family: 'seils sans';
+    color: rgb(4, 0, 0);
+
+} 
+
+.link:hover {
+    text-decoration: underline 3px;
+    text-underline-offset: 33px;
+}
+
+a {
+    text-decoration: none;
+   color: rgb(255, 255, 255);
+}
+
+
+i {
+    color: black;
+    font-size: 30px; 
+}
+i:hover {
+    cursor: pointer;
+}
+
+.container {
+
+    display: flex;
+    width: 100%;
+    height: 510px;
+    background-image: url(images/WhaleImage.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.infos-wrapper{
+    
+    margin-left: 20px;
+    width: 900px;
+    color: white;
+}
+.headtitle {
+    font-size: 120px;
+    font-weight: 200;
+}
+
+p{ 
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.read-article {
+    
+        background-color: rgb(245, 127, 43);
+        font-family: 'seils sans', sans-serif;
+         font-size: 30px;
+         font-weight: 400;
+         color:rgb(254, 254, 254);
+         width: 200px;
+        height: 50px;
+         cursor: pointer;
+         padding-bottom: 10px;
+         border: rgb(245, 127, 43);
+       
+}
+.read-article:hover {
+    background-color: rgb(215, 82, 15);
+    }
+
+
+/*Header end here*/
+
+/*Photo gallery starts here*/
+
+.gallery {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 40px 30px 80px 0px ;
+    row-gap: 200px;
+  }
+  
+  .gallery img {
+    
+    width: 580px;
+    margin: 10px;
+    
+  }
+
+  .subtitle { 
+
+    font-size: 15px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   line-height: 20px;
+   
+}
+
+  /*Photo gallery ends here*/
+
+  /*Subgallery starts here (Used twice)*/ 
+
+  .subgallery {
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    row-gap: 200px;
+  }
+
+  .subgallery img {
+
+    width: 580px;
+    margin: 10px;
+    
+  }
+
+  .text-block1 {
+
+    display: flex;
+    position: absolute;
+    left: 12%;                       
+    top: 10%;                         
+    transform: translate(-12%, -10%);
+    font-size: 80px;
+    width: 500px;
+    color: white;
+  
+  }
+
+  .text-block2 {
+    display: flex;
+    position: absolute;
+    left: 75%;                        
+    top: 20%;                         
+    transform: translate(-60%, -30%);
+    font-size: 80px;
+    letter-spacing: 4px;
+    width: 400px;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+  
+  }
+
+  .text-block3 {
+
+    display: flex;
+    position: absolute;
+    left:73%;                        
+    top: 50%;                         
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    width: 500px;
+    color: white;
+    
+  }
+
+  .text-block4 {
+    
+    display: flex;
+    position: absolute;
+    left: 35%;                        
+    top: 50%;                         
+    transform: translate(-50%, -50%);
+    font-size: 70px;
+    width: 500px;
+    color: white;
+    
+  }
+
+  /*Subgallery Ends here*/ 
+ 
+  .caption {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    }
+  
+    .caption-text {
+
+    display: block;
+    position: absolute;
+    background-color: #ffffff;
+    color: #090000;
+    opacity: 95%;
+    height:200px;
+    width: 500px;
+    left: 50px;
+    top: 230px;
+    padding: 3em;
+    font-weight: 700;
+    z-index: 2;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+    }
+
+    /*Subgallery ends here*/
+
+    /* Infos line repeats in the html, to announce topics*/
+
+    .infos-line {
+        display:flex;
+        justify-content: center;
+        text-decoration:underline ;
+        padding-top: 60px;
+        font-weight: 100!important;
+    }
+
+
+  /*Meathos background image=> to start video*/
+
+  .bg-img-meathos {
+
+    display: flex;
+    width: 100%;
+    height: 670px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(images/meathos.jpg);
+   background-position: center;
+
+}
+
+/*Meathos background image end here*/
+
+/* The columns-container starts here => contain The "actuality part"*/
+.columns-container {
+
+    display: flex;
+}
+
+.col-1 {
+
+    columns: wrap;
+    background-color: white;
+    height: 650px;
+    width: 200px;
+    line-height: 110px;
+    padding: 160px 0px 0px 220px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col-2 {
+
+    background-color: white;
+    height: 650px;
+    width: 900px;
+    
+}
+.col-2 p{
+
+    font-size: 18px;
+}
+.col-2 h1{
+
+    margin: 0px 300px 50px 0px;
+    
+}
+
+.actualite{
+  
+    margin-top: 12px;
+    font-family: 'seils sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color:black;
+    width:250px;
+    height: 55px;
+    background-color:white;
+    cursor: pointer;
+    padding-bottom: 30px;
+    border-width:3px;
+    margin: 40px 0px 0px 100px;
+   
+    }
+
+    /*columns-container ends here*/
+
+    /*pattern-bg-effect starts here*/
+
+.pattern-bg-effect {
+
+    background-size: 100%;
+    background-image: url("images/luxa.org-opacity-changed-grey.jpg");
+    height: 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+.pattern-bg {
+
+    position:absolute;
+    height:700px;
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 650;
+   
+}
+
+.explore{
+  
+    position: absolute;
+    font-family: 'seils sans', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color:black;
+    width:140px;
+    height: 50px;
+    background-color:white;
+    cursor: pointer;
+    border-width:3px;
+    margin: 400px 540px 0px 530px;
+    
+    }
+
+    /*pattern-bg-effect ends here*/
+
+      /*newsletter starts here*/
+
+.newsletter {
+
+    position: relative;
+    background-image: url(images/men_chat.jpg);
+    margin: 40px 40px 90px 40px;
+}
+
+.caption-text2 {
+
+   background-color: #ffffff;
+   display: block;
+   position: absolute;
+   height:300px;
+   width: 360px;
+   color: #090000;
+   left: 50px;
+   top: 230px;
+   padding: 1em;
+   z-index: 2;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   text-align: center;
+
+   }
+
+  /*newsletter ends here*/
+
+  /* Footer starts here*/
+
+.footer {
+
+    background-image: url(images/luxa.org-opacity-changed-topographie.jpg);
+    height: 650px;
+    width: 1600px;
+    padding-top: 80px;
+    color: white;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+.columns-4 {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    margin-right: 400px;
+    margin-bottom: 100px;
+    
+}
+
+.footer-policy {
+   
+    height: 50px;
+    width: 100%;
+    margin: 350px 40px 40px 40px;
+}
+.policy {
+    color: white;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mission-policy {
+    display: flex;
+    border-top:#fff;
+    border-top-style: solid ;
+    border-bottom-style: solid ;  
+}
+
+.mission {
+   
+    height: 120px;
+    margin-left:40px;
+    color: white;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-footer{
+    
+    margin: 30px 0px 0px 30px;
+    height: 100px;
+    width: 80px;
+}
+
+.socialmediaicons {
+
+    background-color: none;
+    width: 80%;
+    display: flex;
+    justify-content: right;
+    align-items:right;
+ 
+   
+  }
+
+  .icon {
+   
+    width: 70px;
+    height: 70px;
+    align-items:right;
+    font-size: 40px;
+   
+  }
+
+
+   /* Footer starts here*/
+
